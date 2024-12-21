@@ -15,7 +15,7 @@ const Login = () => {
         <div className={styles.child1}><img src="./logincartoon.jpg" alt="" srcSet="" /></div>
         <div className={styles.child2}>
           <div className={styles.child2header}>
-            <h3>Welcome,to IndiBus</h3>
+            <h3>Welcome,to ERP</h3>
             <h1>Login</h1>
             <p>Login to access your travelwise account</p>
           </div>
@@ -26,7 +26,7 @@ const Login = () => {
               <input type="password" name="password" id="child2-password" placeholder='Enter your Password'/> <span className={styles.eye}><i className="bi bi-eye-slash-fill"></i></span>
               <div className={styles.rememberdiv}>
                 <div className={styles.remchild1}><input type="checkbox" name="" id="" />
-                  <p>remember me</p>
+                  <p>Remember me</p>
                 </div>
                 <div className={styles.remchild2}><a href='#' >Forgot password?</a></div>
               </div>
@@ -35,7 +35,7 @@ const Login = () => {
             </div>
           </form>
           <div className={styles.anotherlogin}>
-            <p>or login with</p>
+            <p>Or login with</p>
             <div className={styles.loginicons}>
             <div className={styles.loginiconsgoogle}>
               

@@ -11,8 +11,8 @@ const dashboard = () => {
                    <h2>TASK PROGRESS</h2>
                    <h3>On Going Task:</h3>
                    <ul>
-                     <li>IndiBus ERP design</li>
-                     <li>IndiBus ERP Frontend</li>
+                     <li> ERP design</li>
+                     <li> ERP Frontend</li>
                    </ul>
                    <button><a href="#">View Tasks &gt;</a></button>
                 </div>
