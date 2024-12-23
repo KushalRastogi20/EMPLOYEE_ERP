@@ -27,12 +27,12 @@ export default function Home() {
           <Image src="/tiltimage.jpg" alt="" width={500} height={500} priority />
         </div>
       </div>
-      <div className={styles.scrollme}>
+      {/* <div className={styles.scrollme}>
         <h2>
           scroll
           <IoIosArrowForward />
         </h2>
-      </div>
+      </div> */}
     </div>
   );
 }

@@ -2,7 +2,7 @@
     display: flex;
     flex-flow: wrap;
     gap: 25px;
-    background-color:#2c2c2c;
+    background-color:#a3e1f2;
     margin-left: 0%;
   }
   .homecontainer2{
@@ -30,20 +30,20 @@
   }
   .taskProgress{
     flex: 1 1 25%;
-    background-color:#8594e4  ;
+    background-color:#979797  ;
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
   }
   .attendance{
     flex: 1 1 25% ;
-    background-color: #cf6679  ;
+    background-color: #d48492  ;
     padding: 20px;
     border-radius: 10px;
   }
   .announcement {
     flex: 1 1 25%;
-    background-color: #66bfbf ;
+    background-color: #84c5c5 ;
     padding: 20px;
     border-radius: 10px;
     margin-right: 4vh;
@@ -51,13 +51,13 @@
   }
   .upcomingMeetings{
     flex: 1 1 25%;
-    background-color:#8594e4  ;
+    background-color:#a3ade9  ;
     padding: 20px;
     border-radius: 10px;
   }
   .ranking{
     flex: 1 1 25%;
-    background-color: #cf6679  ;
+    background-color: #bdc77f  ;
     padding: 20px;
     border-radius: 10px;
   }
@@ -203,7 +203,7 @@
     .landingparent{
         height: 100vh;
         width: 100%;
-        background-color:#232326 ;
+        background-color:#6c6c79 ;
         display: flex;
         align-items:flex-end ;
         justify-content: center;
@@ -212,7 +212,7 @@
     .landingchild{
         height: 90vh;
         width: 90vw;
-        background-color: #131416;
+        background-color: #65b4d6;
         color: white;
         border-radius: 10px;
         display: flex;
@@ -220,6 +220,7 @@
         align-items: center;
         flex-wrap: wrap-reverse;
         margin-bottom: 5vh;
+        /* margin-left: vh; */
     }
     .landingchild1,.landingchild2{
     width: 40%;
@@ -245,23 +246,23 @@
       height: 7vh;
       width: 100%;
       text-align: center;
-      color: #7949FF;
+      color: #0b0716;
       border-radius: 7px;
-     border: 1px solid #7949FF;
+     border: 1px solid #241c38;
       background-color: transparent;
     }
     .Lbutton2{
         height: 7vh;
         width: 100%;
         text-align: center;
-        color: #7949FF;
-        border-radius: 7px;
-       border: 1px solid #7949FF;
-        background-color: transparent;
+        color: #0b0716;
+      border-radius: 7px;
+     border: 1px solid #241c38;
+      background-color: transparent;
         
     }
     .Lbutton1:hover,.Lbutton2:hover{
-      background-color: #E9E1FF;
+      background-color: #cec3ed;
     }
     .landingtitle{
         height: 60%;
@@ -276,14 +277,14 @@
     .landingtitle p{
         font-size: 3vh;
     }
-    .scrollme{
+    /* .scrollme{
         position: relative;
         right: 5vw;
         bottom: 6vh;
         transform: rotate(90deg);
         color: white;
         z-index: 1;
-    }
+    } */
     @media screen  and (max-width:1100px){
         .landingtitle h1{
             font-size: 6vh;
@@ -327,7 +328,7 @@
                     height: 100%;
                     margin-top: 10vh;
                     width: 90vw;
-                    background-color: #131416;
+                    /* background-color: #131416; */
                     color: white;
                     border-radius: 10px;
                     display: flex;
@@ -339,14 +340,14 @@
                     height: 100%;
                     
                 }
-                .scrollme{
+                /* .scrollme{
                     position: relative;
                     right: -40vw;
                     bottom: 9vh;
                     transform: rotate(90deg);
                     color: white;
                     z-index: 1;
-                }
+                } */
     }
 
 
@@ -357,7 +358,8 @@
     .loginparent {
       height: 100vh;
       width: 100vw;
-      background: linear-gradient(to bottom, #232326 70%, #424345 30%);
+        background-color:#6c6c79 ;
+        /* background: linear-gradient(to bottom,#525299  90%); */
       display: flex;
       align-items: center;
       justify-content: center;
@@ -366,7 +368,7 @@
   .loginmainchild{
       height: 78vh;
       min-width: 70vw;
-      background-color: black;
+      background-color: rgb(41, 47, 51);
       display: flex;
       align-items: center;
       justify-content: space-evenly;
@@ -382,6 +384,7 @@
       object-fit: cover;
       height: 90%;
       width: 95%;
+      margin-top: 1rem;
       
   }
   .child2{
@@ -402,7 +405,7 @@
       flex-direction: column;
       justify-content: space-around;
      height: 30vh;
-     border-radius: 7px;
+     border-radius: 4px;
       color: white;
       background-color: transparent;
       text-align: center;
@@ -414,20 +417,20 @@
   margin: 0.5vh 0;
       width: 100%;
       padding-left: 5px;
-      border-radius: 10px;
+      border-radius: 4px;
     background-color: transparent;
-    color: #ccc;
+    color: #fffefe;
   }
   /* .child2-inputs p{
       margin-top: 5px;
   } */
   .child2inputs button{
       height: 5vh;
-      background-color: blue;
+      background-color: rgb(38, 38, 54);
       text-align: center;
       color: white;
       border: none;
-      border-radius: 9px;
+      border-radius: 5px;
   }
   .child2inputs button:hover{
     background-color: #8594e4;
@@ -470,7 +473,7 @@
       gap: 5px;
   }
   .loginmainchild a{
-      color: rgb(250, 102, 102);
+      color: rgb(206, 92, 58);
       text-decoration: none;
   }
   .anotherlogin p::before,
@@ -549,7 +552,8 @@
   .Registerparent {
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(to bottom, #232326 70%, #424345 30%);
+    /* background: linear-gradient(to bottom, #232326 70%, #424345 30%); */
+    background-color: #6c6c79;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -558,7 +562,7 @@
   .Registerchild {
     height: 85vh;
     max-width: 85vw;
-    background-color: black;
+    background-color: rgb(39, 39, 39);
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -574,6 +578,7 @@
     object-fit: cover;
     height: 90%;
     width: 85%;
+    margin-top: 1rem;
     
   }
   .Registerchild2{
@@ -592,10 +597,10 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-   height: 45vh;
+   height: 50vh;
     color: white;
     text-align: center;
-    gap: 10px;
+    gap: 5px;
     
   }
   
@@ -605,7 +610,7 @@
     text-align: center;
     color: white;
     border: none;
-    padding: 15px;
+    padding: 10px;
     margin-bottom: 15px;
     border-radius: 15px;
   }
